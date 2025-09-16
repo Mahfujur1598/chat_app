@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App</title>
+  <base href="/">
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js"></script>
+
+  <script>
+    // তোমার firebase_options.dart এর web config থেকে কপি করা
+    const firebaseConfig = {
+      apiKey: "AIzaSyAlVeEaObir0YqahzUW1Gx3gpeJuMGutno",
+      authDomain: "chatapp-277ff.firebaseapp.com",
+      projectId: "chatapp-277ff",
+      storageBucket: "chatapp-277ff.firebasestorage.app",
+      messagingSenderId: "350708902669",
+      appId: "1:350708902669:web:61d66b1105474fd3a45e44",
+      measurementId: "G-3J23ZCN5C3"
+    };
+
+    // Firebase initialize
+    const app = firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+<body>
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
